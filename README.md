@@ -2,15 +2,6 @@
 
 This [Twilio Flex](https://www.twilio.com/flex) plugin uses [GPT-3](https://openai.com/api/) to enhance and rephrase agent responses.
 
-## Demo
-![Demo](demo.gif?)
-
-## Design
-![Architecture](architecture.png?raw=true)
-
-The repository contains two folders:
-- `enahnced-responses-function`: contains the code for a [Twilio Function](https://www.twilio.com/docs/runtime/functions) used for fetching the enhanced responses from the OpenAI API. 
-- `enhanced-responses-plugin`: contains the code for a [Twilio Flex plugin](https://www.twilio.com/docs/flex/developer/plugins). The plugin adds a new rephrase button to the [MessageInputActions](https://assets.flex.twilio.com/docs/releases/flex-ui/2.0.0-beta.1/programmable-components/components/MessageInputActions) component.
 
 ## Setup
 
@@ -33,6 +24,19 @@ The repository contains two folders:
    
 
 That's it! Navigate to your Flex instance and click on a messaging-based task to see the plugin in action.
+
+
+## Design
+![Architecture](architecture.png?raw=true)
+
+The repository contains two folders:
+- `enahnced-responses-function`: contains the code for a [Twilio Function](https://www.twilio.com/docs/runtime/functions) used for fetching the enhanced responses from the OpenAI API. 
+- `enhanced-responses-plugin`: contains the code for a [Twilio Flex plugin](https://www.twilio.com/docs/flex/developer/plugins). The plugin adds a new rephrase button to the [MessageInputActions](https://assets.flex.twilio.com/docs/releases/flex-ui/2.0.0-beta.1/programmable-components/components/MessageInputActions) component.
+
+
+## Demo
+![Demo](demo.gif?)
+
 
 ## Maintainer
 Thanks for reading this far!
