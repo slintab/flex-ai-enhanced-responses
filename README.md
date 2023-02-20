@@ -1,4 +1,4 @@
-# Twilio Flex: Enhanced responses with GPT-3
+# Twilio Flex: Enhanced Responses with GPT-3
 
 This [Twilio Flex](https://www.twilio.com/flex) plugin uses [GPT-3](https://openai.com/api/) to enhance and rephrase agent responses.
 
